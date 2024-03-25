@@ -10,8 +10,9 @@
             bindings = <&none>, <&none>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <250>;
+            tapping-term-ms = <200>;
             flavor = "tap-preferred";
+            quick-tap-ms = <70>;
         };
     };
 
@@ -21,7 +22,7 @@
         layer_0 {
             bindings = <
 &bt BT_SEL 0  &kp Q       &kp W           &kp E        &kp R               &kp T              &kp Y        &kp U                &kp I              &kp O            &kp P              &trans
-&kp CAPSLOCK  &hm LCMD A  &mt LEFT_ALT S  &mt LSHFT D  &mt LEFT_CONTROL F  &kp G              &kp H        &mt RIGHT_CONTROL J  &mt RIGHT_SHIFT K  &mt RIGHT_ALT L  &mt RIGHT_GUI SQT  &trans
+&kp CAPSLOCK  &mt LCMD A  &mt LEFT_ALT S  &mt LSHFT D  &mt LEFT_CONTROL F  &kp G              &kp H        &mt RIGHT_CONTROL J  &mt RIGHT_SHIFT K  &mt RIGHT_ALT L  &mt RIGHT_GUI SQT  &trans
 &bt BT_SEL 1  &kp Z       &kp X           &kp C        &kp V               &kp B              &kp N        &kp M                &kp COMMA          &kp PERIOD       &kp SLASH          &trans
                                           &trans       &kp TAB             &lt 1 BACKSPACE    &lt 2 SPACE  &kp ENTER            &trans
             >;
