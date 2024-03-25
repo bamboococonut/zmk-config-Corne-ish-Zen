@@ -11,7 +11,7 @@
 
             #binding-cells = <2>;
             tapping-term-ms = <200>;
-            flavor = "tap-preferred";
+            flavor = "balanced";
         };
     };
 
@@ -38,10 +38,10 @@
 
         layer_2 {
             bindings = <
-&bt BT_CLR  &trans  &trans  &trans  &trans  &trans    &trans  &kp PAGE_DOWN  &kp UP    &kp PAGE_UP  &trans  &trans
-&trans          &trans  &trans  &trans  &trans  &trans    &trans  &kp LEFT       &kp DOWN  &kp RIGHT    &trans  &trans
-&trans          &trans  &trans  &trans  &trans  &trans    &trans  &trans         &trans    &trans       &trans  &trans
-                                &trans  &trans  &trans    &trans  &trans         &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp PAGE_DOWN  &kp UP    &kp PAGE_UP  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LEFT       &kp DOWN  &kp RIGHT    &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans         &trans    &trans       &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans         &trans
             >;
         };
 
